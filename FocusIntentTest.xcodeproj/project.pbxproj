@@ -11,6 +11,7 @@
 		682284522994DC53003D6672 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682284512994DC53003D6672 /* ContentView.swift */; };
 		682284542994DC54003D6672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682284532994DC54003D6672 /* Assets.xcassets */; };
 		682284572994DC54003D6672 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682284562994DC54003D6672 /* Preview Assets.xcassets */; };
+		6822845E2994DC8C003D6672 /* FocusIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822845D2994DC8C003D6672 /* FocusIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		682284512994DC53003D6672 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682284532994DC54003D6672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682284562994DC54003D6672 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6822845D2994DC8C003D6672 /* FocusIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6822844F2994DC53003D6672 /* FocusIntentTestApp.swift */,
 				682284512994DC53003D6672 /* ContentView.swift */,
+				6822845D2994DC8C003D6672 /* FocusIntent.swift */,
 				682284532994DC54003D6672 /* Assets.xcassets */,
 				682284552994DC54003D6672 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				682284522994DC53003D6672 /* ContentView.swift in Sources */,
 				682284502994DC53003D6672 /* FocusIntentTestApp.swift in Sources */,
+				6822845E2994DC8C003D6672 /* FocusIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +286,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandersandberg.FocusIntentTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -311,9 +317,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandersandberg.FocusIntentTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
